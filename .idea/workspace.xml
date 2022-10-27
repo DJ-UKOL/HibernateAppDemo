@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8d45abe-3e71-4b40-84af-872273200992" name="Changes" comment="EX_49 Hibernate save">
+    <list default="true" id="a8d45abe-3e71-4b40-84af-872273200992" name="Changes" comment="EX_49 Hibernate update, delete">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666797377710</updated>
-      <workItem from="1666797379579" duration="9994000" />
+      <workItem from="1666797379579" duration="11824000" />
     </task>
     <task id="LOCAL-00001" summary="EX_49 Hibernate save">
       <created>1666855687339</created>
@@ -101,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666855687339</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="EX_49 Hibernate update, delete">
+      <created>1666856207849</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666856207849</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="EX_49 Hibernate save" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX_49 Hibernate save" />
+    <MESSAGE value="EX_49 Hibernate update, delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX_49 Hibernate update, delete" />
   </component>
 </project>

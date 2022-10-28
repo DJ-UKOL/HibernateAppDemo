@@ -26,13 +26,12 @@ public class App {
         try {
             session.beginTransaction();
 
-            Person person = session.get(Person.class, 4);
-            Item item = session.get(Item.class, 1);
-            item.getOwner().getItems().remove(item);
-            // SQL
-            item.setOwner(person);
-            // Состояние кэша
-            person.getItems().add(item);
+            Person person = new Person("Test cas", 30);
+            person.addItem(new Item("Item 1"));
+            person.addItem(new Item("Item 2"));
+            person.addItem(new Item("Item 3"));
+
+            session.save(person);
 
             session.getTransaction().commit();
         } finally {

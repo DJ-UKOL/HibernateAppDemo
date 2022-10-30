@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8d45abe-3e71-4b40-84af-872273200992" name="Changes" comment="Cascading">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Passport.java" afterDir="false" />
+    <list default="true" id="a8d45abe-3e71-4b40-84af-872273200992" name="Changes" comment="Ex_54 ManyToMany">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
@@ -97,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666797377710</updated>
-      <workItem from="1666797379579" duration="35455000" />
+      <workItem from="1666797379579" duration="38429000" />
     </task>
     <task id="LOCAL-00001" summary="EX_49 Hibernate save">
       <created>1666855687339</created>
@@ -134,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666945080368</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ex_54 ManyToMany">
+      <created>1667120332323</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667120332323</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +161,7 @@
     <MESSAGE value="EX_51 HQL" />
     <MESSAGE value="OneToMany" />
     <MESSAGE value="Cascading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cascading" />
+    <MESSAGE value="Ex_54 ManyToMany" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex_54 ManyToMany" />
   </component>
 </project>

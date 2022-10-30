@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8d45abe-3e71-4b40-84af-872273200992" name="Changes" comment="OneToMany">
+    <list default="true" id="a8d45abe-3e71-4b40-84af-872273200992" name="Changes" comment="Cascading">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Passport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666797377710</updated>
-      <workItem from="1666797379579" duration="21515000" />
+      <workItem from="1666797379579" duration="35455000" />
     </task>
     <task id="LOCAL-00001" summary="EX_49 Hibernate save">
       <created>1666855687339</created>
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666894898191</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cascading">
+      <created>1666945080368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666945080368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +156,7 @@
     <MESSAGE value="EX_49 Hibernate update, delete" />
     <MESSAGE value="EX_51 HQL" />
     <MESSAGE value="OneToMany" />
-    <option name="LAST_COMMIT_MESSAGE" value="OneToMany" />
+    <MESSAGE value="Cascading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cascading" />
   </component>
 </project>

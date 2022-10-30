@@ -1,7 +1,6 @@
 package org.example;
 
-import org.example.model.Item;
-import org.example.model.Person;
+import org.example.model.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -18,24 +17,27 @@ public class App {
     public static void main(String[] args) {
         Configuration configuration = new Configuration()
                 .addAnnotatedClass(Person.class)
-                .addAnnotatedClass(Item.class);
+                .addAnnotatedClass(Item.class)
+                .addAnnotatedClass(Passport.class)
+                .addAnnotatedClass(Actor.class)
+                .addAnnotatedClass(Movie.class);
 
         SessionFactory sessionFactory = configuration.buildSessionFactory();
-        Session session = sessionFactory.getCurrentSession();
 
-        try {
+        try (sessionFactory){
+            Session session = sessionFactory.getCurrentSession();
             session.beginTransaction();
 
-            Person person = new Person("Test cas", 30);
-            person.addItem(new Item("Item 1"));
-            person.addItem(new Item("Item 2"));
-            person.addItem(new Item("Item 3"));
+            Actor actor = session.get(Actor.class, 2);
+            System.out.println(actor.getMovies());
 
-            session.save(person);
+            Movie movieToRemove = actor.getMovies().get(0);
+            actor.getMovies().remove(0);
+            // remove использует hash-code and equals надо реализовать эти методы
+            movieToRemove.getActors().remove(actor);
+
 
             session.getTransaction().commit();
-        } finally {
-            sessionFactory.close();
         }
     }
 }
